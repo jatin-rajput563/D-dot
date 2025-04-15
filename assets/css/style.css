@@ -64,7 +64,7 @@
     opacity: 100% !important;
 }
 
-/* -------------------------- */
+/* -------section-2------- */
 .header-box {
     background-color: #0D161B;
     max-height: 650px;
@@ -96,6 +96,19 @@
 
 .pt-32 {
     padding-top: 32px;
+}
+
+/* -------section-3------- */
+.bg-image {
+    background-image: url(../image/png/sec-3-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 638px;
+}
+
+.max-w-632 {
+    max-width: 632px;
 }
 
 @media (max-width:991.98px) {
