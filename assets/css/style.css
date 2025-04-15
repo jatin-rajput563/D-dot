@@ -64,12 +64,21 @@
     opacity: 100% !important;
 }
 
+.right-nav-icon {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #FFFFFF3D;
+    backdrop-filter: blur(10px);
+}
+
 /* -------section-2------- */
 .header-box {
-    background-color: #0D161B;
-    max-height: 650px;
-    height: 100%;
-    max-width: 1140px !important;
+    background-image: url(../image/png/header-card-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1140px;
+    height: 650px;
     width: 100%;
 }
 
