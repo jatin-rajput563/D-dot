@@ -65,10 +65,20 @@
 }
 
 .right-nav-icon {
-    width: 36px;
-    height: 36px;
+    padding: 9px;
     border: 1px solid #FFFFFF3D;
     backdrop-filter: blur(10px);
+    border-radius: 100%;
+    background-color: #202225;
+    transition: all 200ms linear;
+}
+
+.right-nav-icon:hover {
+    background-color: white;
+}
+
+.right-nav-icon:hover path {
+    fill: black;
 }
 
 /* -------section-2------- */
@@ -114,6 +124,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 638px;
+    
 }
 
 .max-w-632 {
