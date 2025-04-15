@@ -111,6 +111,27 @@
     max-width: 632px;
 }
 
+/* -------section-4------- */
+.pt-190 {
+    padding-top: 190px;
+}
+
+.pb-124 {
+    padding-bottom: 124px;
+}
+
+.max-w-398 {
+    max-width: 398px;
+}
+
+.gap-80 {
+    gap: 80px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
 @media (max-width:991.98px) {
 
     .nav-link {
