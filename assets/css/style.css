@@ -81,15 +81,20 @@
     fill: black;
 }
 
+.pt-100 {
+    padding-top: 100px;
+}
+
 /* -------section-2------- */
 .header-box {
     background-image: url(../image/png/header-card-bg.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     max-width: 1140px;
     height: 650px;
     width: 100%;
+    border-radius: 24px;
 }
 
 .max-w-497 {
@@ -124,7 +129,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 638px;
-    
 }
 
 .max-w-632 {
@@ -174,6 +178,10 @@
 }
 
 .right-0 {
+    right: 0;
+}
+
+.right-5 {
     right: 5%;
 }
 
@@ -240,7 +248,27 @@
     padding-bottom: 13px;
 }
 
-@media (max-width:991.98px) {
+.max-w-849 {
+    max-width: 849px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+@media (max-width:1230.98px) {
+    .header-box {
+        height: 500px;
+        max-width: 800px;
+    }
+
+    .max-w-849 {
+        max-width: 600px;
+    }
+
+}
+
+@media (max-width:992.98px) {
 
     .nav-link {
         display: flex !important;
@@ -270,4 +298,28 @@
     .gap-32 {
         gap: 32px;
     }
+
+}
+
+@media (max-width:767.98px) {
+    .header-box {
+        height: 330px;
+        max-width: 800px;
+    }
+
+    .max-w-849 {
+        max-width: 400px;
+    }
+
+}
+
+@media (max-width:400.98px) {
+    .header-box {
+        height: 200px;
+    }
+
+    .max-w-849 {
+        max-width: 250px;
+    }
+
 }
