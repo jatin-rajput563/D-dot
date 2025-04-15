@@ -47,6 +47,10 @@
     line-height: 160%;
 }
 
+.lh-100 {
+    line-height: 100%;
+}
+
 .nav-tags-box {
     max-height: 593px;
     height: 100%;
@@ -60,6 +64,7 @@
     opacity: 100% !important;
 }
 
+/* -------------------------- */
 .header-box {
     background-color: #0D161B;
     max-height: 650px;
@@ -74,6 +79,15 @@
 
 .large-circle {
     top: 116px;
+}
+
+.py-180 {
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.max-w-477 {
+    max-width: 477px;
 }
 
 @media (max-width:991.98px) {

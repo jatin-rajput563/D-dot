@@ -8,6 +8,7 @@
     --fs-4xl: 54px;
     /* ---color--- */
     --color-black: #0B0E11;
+    --color-blue: #142B38;
 }
 
 .fs-sm {
@@ -40,4 +41,8 @@
 
 .back-black {
     background-color: var(--color-black) !important;
+}
+
+.back-blue {
+    background-color: var(--color-blue) !important;
 }
