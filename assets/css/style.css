@@ -133,7 +133,29 @@
 }
 
 /* -------section-4------- */
+.h-482 {
+    min-height: 482px;
+}
 
+.pt-78 {
+    padding-top: 78px;
+}
+
+.max-w-422 {
+    max-width: 422px;
+}
+
+.max-w-781 {
+    max-width: 781px;
+}
+
+.left-26 {
+    left: 26%;
+}
+
+.right-0 {
+    right: 5%;
+}
 
 @media (max-width:991.98px) {
 
