@@ -1,6 +1,16 @@
+@font-face {
+    font-family: 'Articulat CF';
+    src: url('./fonts/ArticulatCF-Bold.woff2') format('woff2');
+}
+
+* {
+    font-family: 'Articulat CF', sans-serif;
+}
+
 .max-w-1140 {
     max-width: 1140px !important;
 }
+
 
 .menu-lines {
     width: 30px;
@@ -157,32 +167,32 @@
 }
 
 /* -------section-5------- */
-.h-482 {
-    min-height: 482px;
+.max-w-1225 {
+    max-width: 1225px !important;
 }
 
 .pt-78 {
     padding-top: 78px;
 }
 
-.max-w-422 {
-    max-width: 422px;
-}
-
 .max-w-781 {
     max-width: 781px;
 }
 
-.left-26 {
-    left: 26%;
+.right-12 {
+    right: 12px;
+}
+
+.left-12 {
+    left: 12px;
+}
+
+.max-w-422 {
+    max-width: 422px;
 }
 
 .right-0 {
     right: 0;
-}
-
-.right-5 {
-    right: 5%;
 }
 
 /* -------section-6------- */
@@ -320,6 +330,10 @@
 
     .max-w-849 {
         max-width: 250px;
+    }
+
+    .w-sm-100 {
+        width: 100% !important;
     }
 
 }
