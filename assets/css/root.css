@@ -9,6 +9,8 @@
     /* ---color--- */
     --color-black: #0B0E11;
     --color-blue: #142B38;
+    --footer-color: #11222C;
+    --light-black: #080B0E;
 }
 
 .fs-sm {
@@ -45,4 +47,19 @@
 
 .back-blue {
     background-color: var(--color-blue) !important;
+}
+
+.light-black-bg {
+    background-color: var(--light-black) !important;
+}
+
+.footer-color {
+    background-color: var(--footer-color) !important;
+}
+
+@media (max-width:400px) {
+    :root {
+        --fs-md: 14px;
+    }
+
 }
