@@ -27,17 +27,6 @@ function isPalindrome(str) {
 
 isPalindrome("madam");
 
-// factorial
-function factorial(n) {
-    let result = 1;
-    for (let i = 1; i <= n; i++) {
-        result *= i;
-    }
-    console.log("Factorial of " + n + " is " + result);
-}
-
-factorial(5);
-
 // larger-number
 function findLargestNumber(numbers) {
     const max = Math.max(...numbers);
